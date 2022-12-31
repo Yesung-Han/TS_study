@@ -1,0 +1,22 @@
+{
+  "name": "ts_study",
+  "version": "1.0.0",
+  "description": "### TS를 할때 알아야 할 단 한가지:  - 타입스크립트는 결국 자바스크립트로 변환된다.(트랜스 파일 : 고수준 언어 -> 고수준 언어)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yesung-Han/TS_study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yesung-Han/TS_study/issues"
+  },
+  "homepage": "https://github.com/Yesung-Han/TS_study#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
