@@ -47,3 +47,31 @@ const f: any = true; // any를 쓰면 타입스크립트를 쓰는 의미가 사
 ``` typescript
 function add (x: number, y: number): number { return x + y; }
 ```
+
+### 인터페이스로도 타입 지정이 가능한데 이렇게는 거의 안씀
+``` typescript
+interface Add {
+  (x: number, y: number): number;
+}
+const add: Add = (x, y) ⇒ x + y;
+```
+### 배열
+``` typescript
+const arr: string[] = [’123’, ‘456’];
+```
+### 제너릭을 사용한 배열 정의
+``` typescript
+const arr2: Array<number> = [123, 456];
+```
+### 튜플 - 고정된 길이의 배열
+``` typescript
+const arr3 = [number, number, string] = [1,1,’123’];
+```
+### 타입을 고정된 원시값으로 지정 - 상수 같은것 정의 할때
+``` typescript
+const f: 5 = 5;
+```
+### 객체
+``` typescript
+const obj: { lat: number, lon: number } = { lat: 37.5, lon: 127.5 };
+```
